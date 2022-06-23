@@ -5,7 +5,6 @@ import { Route, Redirect, Switch } from "react-router-dom";
 import Skysports from "./components/skysports";
 // import GetSky from "./components/getSky";
 import NavBar from "./components/navBar";
-import Home from "./components/home";
 import SkysportsPage from "./components/skysportsPage";
 import Video from "./components/video";
 import ReadNewsPost from "./components/readNewsPost";
@@ -22,7 +21,6 @@ function App() {
       </div>
 
       <Switch>
-        <Route exact path="/home" component={Home} />
         <Route path="/video" component={Video} />
         <Route path="/skysports" component={SkysportsPage} />
         <Route path="/wales-ukraine-win" component={ReadNewsPost} />
